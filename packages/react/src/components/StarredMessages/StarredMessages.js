@@ -41,6 +41,7 @@ const StarredMessages = () => {
       iconName="star"
       setShowWindow={setShowStarred}
     >
+      <HeyError />
       {loading ? (
         <Box
           style={{
